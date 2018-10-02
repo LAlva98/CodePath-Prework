@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8FC1E58E2162E277006B2720"
-               BuildableName = "LuisAlva-CodePath-Prework"
+               BlueprintIdentifier = "8FC1E5A12162E888006B2720"
+               BuildableName = "LuisAlva-CodePath-Prework.app"
                BlueprintName = "LuisAlva-CodePath-Prework"
                ReferencedContainer = "container:LuisAlva-CodePath-Prework.xcodeproj">
             </BuildableReference>
@@ -28,12 +28,32 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FC1E5B52162E889006B2720"
+               BuildableName = "LuisAlva-CodePath-PreworkTests.xctest"
+               BlueprintName = "LuisAlva-CodePath-PreworkTests"
+               ReferencedContainer = "container:LuisAlva-CodePath-Prework.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FC1E5C02162E889006B2720"
+               BuildableName = "LuisAlva-CodePath-PreworkUITests.xctest"
+               BlueprintName = "LuisAlva-CodePath-PreworkUITests"
+               ReferencedContainer = "container:LuisAlva-CodePath-Prework.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FC1E58E2162E277006B2720"
-            BuildableName = "LuisAlva-CodePath-Prework"
+            BlueprintIdentifier = "8FC1E5A12162E888006B2720"
+            BuildableName = "LuisAlva-CodePath-Prework.app"
             BlueprintName = "LuisAlva-CodePath-Prework"
             ReferencedContainer = "container:LuisAlva-CodePath-Prework.xcodeproj">
          </BuildableReference>
@@ -55,8 +75,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FC1E58E2162E277006B2720"
-            BuildableName = "LuisAlva-CodePath-Prework"
+            BlueprintIdentifier = "8FC1E5A12162E888006B2720"
+            BuildableName = "LuisAlva-CodePath-Prework.app"
             BlueprintName = "LuisAlva-CodePath-Prework"
             ReferencedContainer = "container:LuisAlva-CodePath-Prework.xcodeproj">
          </BuildableReference>
@@ -74,8 +94,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8FC1E58E2162E277006B2720"
-            BuildableName = "LuisAlva-CodePath-Prework"
+            BlueprintIdentifier = "8FC1E5A12162E888006B2720"
+            BuildableName = "LuisAlva-CodePath-Prework.app"
             BlueprintName = "LuisAlva-CodePath-Prework"
             ReferencedContainer = "container:LuisAlva-CodePath-Prework.xcodeproj">
          </BuildableReference>

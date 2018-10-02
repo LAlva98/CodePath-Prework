@@ -7,28 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FC1E5932162E277006B2720 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E5922162E277006B2720 /* main.swift */; };
+		8FC1E5A62162E888006B2720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E5A52162E888006B2720 /* AppDelegate.swift */; };
+		8FC1E5A82162E888006B2720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E5A72162E888006B2720 /* ViewController.swift */; };
+		8FC1E5AB2162E888006B2720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1E5A92162E888006B2720 /* Main.storyboard */; };
+		8FC1E5AD2162E888006B2720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1E5AC2162E888006B2720 /* Assets.xcassets */; };
+		8FC1E5B02162E888006B2720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1E5AE2162E888006B2720 /* LaunchScreen.storyboard */; };
+		8FC1E5BB2162E889006B2720 /* LuisAlva_CodePath_PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E5BA2162E889006B2720 /* LuisAlva_CodePath_PreworkTests.swift */; };
+		8FC1E5C62162E889006B2720 /* LuisAlva_CodePath_PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E5C52162E889006B2720 /* LuisAlva_CodePath_PreworkUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8FC1E58D2162E277006B2720 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		8FC1E5B72162E889006B2720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC1E59A2162E888006B2720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC1E5A12162E888006B2720;
+			remoteInfo = "LuisAlva-CodePath-Prework";
 		};
-/* End PBXCopyFilesBuildPhase section */
+		8FC1E5C22162E889006B2720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC1E59A2162E888006B2720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC1E5A12162E888006B2720;
+			remoteInfo = "LuisAlva-CodePath-Prework";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8FC1E58F2162E277006B2720 /* LuisAlva-CodePath-Prework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LuisAlva-CodePath-Prework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FC1E5922162E277006B2720 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8FC1E5A22162E888006B2720 /* LuisAlva-CodePath-Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LuisAlva-CodePath-Prework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1E5A52162E888006B2720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FC1E5A72162E888006B2720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FC1E5AA2162E888006B2720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC1E5AC2162E888006B2720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC1E5AF2162E888006B2720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC1E5B12162E889006B2720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC1E5B62162E889006B2720 /* LuisAlva-CodePath-PreworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LuisAlva-CodePath-PreworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1E5BA2162E889006B2720 /* LuisAlva_CodePath_PreworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuisAlva_CodePath_PreworkTests.swift; sourceTree = "<group>"; };
+		8FC1E5BC2162E889006B2720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC1E5C12162E889006B2720 /* LuisAlva-CodePath-PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LuisAlva-CodePath-PreworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1E5C52162E889006B2720 /* LuisAlva_CodePath_PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuisAlva_CodePath_PreworkUITests.swift; sourceTree = "<group>"; };
+		8FC1E5C72162E889006B2720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8FC1E58C2162E277006B2720 /* Frameworks */ = {
+		8FC1E59F2162E888006B2720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC1E5B32162E889006B2720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC1E5BE2162E889006B2720 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +74,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8FC1E5862162E277006B2720 = {
+		8FC1E5992162E888006B2720 = {
 			isa = PBXGroup;
 			children = (
-				8FC1E5912162E277006B2720 /* LuisAlva-CodePath-Prework */,
-				8FC1E5902162E277006B2720 /* Products */,
+				8FC1E5A42162E888006B2720 /* LuisAlva-CodePath-Prework */,
+				8FC1E5B92162E889006B2720 /* LuisAlva-CodePath-PreworkTests */,
+				8FC1E5C42162E889006B2720 /* LuisAlva-CodePath-PreworkUITests */,
+				8FC1E5A32162E888006B2720 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8FC1E5902162E277006B2720 /* Products */ = {
+		8FC1E5A32162E888006B2720 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FC1E58F2162E277006B2720 /* LuisAlva-CodePath-Prework */,
+				8FC1E5A22162E888006B2720 /* LuisAlva-CodePath-Prework.app */,
+				8FC1E5B62162E889006B2720 /* LuisAlva-CodePath-PreworkTests.xctest */,
+				8FC1E5C12162E889006B2720 /* LuisAlva-CodePath-PreworkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8FC1E5912162E277006B2720 /* LuisAlva-CodePath-Prework */ = {
+		8FC1E5A42162E888006B2720 /* LuisAlva-CodePath-Prework */ = {
 			isa = PBXGroup;
 			children = (
-				8FC1E5922162E277006B2720 /* main.swift */,
+				8FC1E5A52162E888006B2720 /* AppDelegate.swift */,
+				8FC1E5A72162E888006B2720 /* ViewController.swift */,
+				8FC1E5A92162E888006B2720 /* Main.storyboard */,
+				8FC1E5AC2162E888006B2720 /* Assets.xcassets */,
+				8FC1E5AE2162E888006B2720 /* LaunchScreen.storyboard */,
+				8FC1E5B12162E889006B2720 /* Info.plist */,
 			);
 			path = "LuisAlva-CodePath-Prework";
+			sourceTree = "<group>";
+		};
+		8FC1E5B92162E889006B2720 /* LuisAlva-CodePath-PreworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1E5BA2162E889006B2720 /* LuisAlva_CodePath_PreworkTests.swift */,
+				8FC1E5BC2162E889006B2720 /* Info.plist */,
+			);
+			path = "LuisAlva-CodePath-PreworkTests";
+			sourceTree = "<group>";
+		};
+		8FC1E5C42162E889006B2720 /* LuisAlva-CodePath-PreworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1E5C52162E889006B2720 /* LuisAlva_CodePath_PreworkUITests.swift */,
+				8FC1E5C72162E889006B2720 /* Info.plist */,
+			);
+			path = "LuisAlva-CodePath-PreworkUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FC1E58E2162E277006B2720 /* LuisAlva-CodePath-Prework */ = {
+		8FC1E5A12162E888006B2720 /* LuisAlva-CodePath-Prework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FC1E5962162E277006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-Prework" */;
+			buildConfigurationList = 8FC1E5CA2162E889006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-Prework" */;
 			buildPhases = (
-				8FC1E58B2162E277006B2720 /* Sources */,
-				8FC1E58C2162E277006B2720 /* Frameworks */,
-				8FC1E58D2162E277006B2720 /* CopyFiles */,
+				8FC1E59E2162E888006B2720 /* Sources */,
+				8FC1E59F2162E888006B2720 /* Frameworks */,
+				8FC1E5A02162E888006B2720 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -79,55 +142,180 @@
 			);
 			name = "LuisAlva-CodePath-Prework";
 			productName = "LuisAlva-CodePath-Prework";
-			productReference = 8FC1E58F2162E277006B2720 /* LuisAlva-CodePath-Prework */;
-			productType = "com.apple.product-type.tool";
+			productReference = 8FC1E5A22162E888006B2720 /* LuisAlva-CodePath-Prework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FC1E5B52162E889006B2720 /* LuisAlva-CodePath-PreworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC1E5CD2162E889006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-PreworkTests" */;
+			buildPhases = (
+				8FC1E5B22162E889006B2720 /* Sources */,
+				8FC1E5B32162E889006B2720 /* Frameworks */,
+				8FC1E5B42162E889006B2720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC1E5B82162E889006B2720 /* PBXTargetDependency */,
+			);
+			name = "LuisAlva-CodePath-PreworkTests";
+			productName = "LuisAlva-CodePath-PreworkTests";
+			productReference = 8FC1E5B62162E889006B2720 /* LuisAlva-CodePath-PreworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FC1E5C02162E889006B2720 /* LuisAlva-CodePath-PreworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC1E5D02162E889006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-PreworkUITests" */;
+			buildPhases = (
+				8FC1E5BD2162E889006B2720 /* Sources */,
+				8FC1E5BE2162E889006B2720 /* Frameworks */,
+				8FC1E5BF2162E889006B2720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC1E5C32162E889006B2720 /* PBXTargetDependency */,
+			);
+			name = "LuisAlva-CodePath-PreworkUITests";
+			productName = "LuisAlva-CodePath-PreworkUITests";
+			productReference = 8FC1E5C12162E889006B2720 /* LuisAlva-CodePath-PreworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8FC1E5872162E277006B2720 /* Project object */ = {
+		8FC1E59A2162E888006B2720 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Digital NEST";
 				TargetAttributes = {
-					8FC1E58E2162E277006B2720 = {
+					8FC1E5A12162E888006B2720 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
+					8FC1E5B52162E889006B2720 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FC1E5A12162E888006B2720;
+					};
+					8FC1E5C02162E889006B2720 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FC1E5A12162E888006B2720;
+					};
 				};
 			};
-			buildConfigurationList = 8FC1E58A2162E277006B2720 /* Build configuration list for PBXProject "LuisAlva-CodePath-Prework" */;
+			buildConfigurationList = 8FC1E59D2162E888006B2720 /* Build configuration list for PBXProject "LuisAlva-CodePath-Prework" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 8FC1E5862162E277006B2720;
-			productRefGroup = 8FC1E5902162E277006B2720 /* Products */;
+			mainGroup = 8FC1E5992162E888006B2720;
+			productRefGroup = 8FC1E5A32162E888006B2720 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FC1E58E2162E277006B2720 /* LuisAlva-CodePath-Prework */,
+				8FC1E5A12162E888006B2720 /* LuisAlva-CodePath-Prework */,
+				8FC1E5B52162E889006B2720 /* LuisAlva-CodePath-PreworkTests */,
+				8FC1E5C02162E889006B2720 /* LuisAlva-CodePath-PreworkUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		8FC1E5A02162E888006B2720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1E5B02162E888006B2720 /* LaunchScreen.storyboard in Resources */,
+				8FC1E5AD2162E888006B2720 /* Assets.xcassets in Resources */,
+				8FC1E5AB2162E888006B2720 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC1E5B42162E889006B2720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC1E5BF2162E889006B2720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		8FC1E58B2162E277006B2720 /* Sources */ = {
+		8FC1E59E2162E888006B2720 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC1E5932162E277006B2720 /* main.swift in Sources */,
+				8FC1E5A82162E888006B2720 /* ViewController.swift in Sources */,
+				8FC1E5A62162E888006B2720 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC1E5B22162E889006B2720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1E5BB2162E889006B2720 /* LuisAlva_CodePath_PreworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC1E5BD2162E889006B2720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1E5C62162E889006B2720 /* LuisAlva_CodePath_PreworkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8FC1E5B82162E889006B2720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC1E5A12162E888006B2720 /* LuisAlva-CodePath-Prework */;
+			targetProxy = 8FC1E5B72162E889006B2720 /* PBXContainerItemProxy */;
+		};
+		8FC1E5C32162E889006B2720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC1E5A12162E888006B2720 /* LuisAlva-CodePath-Prework */;
+			targetProxy = 8FC1E5C22162E889006B2720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FC1E5A92162E888006B2720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC1E5AA2162E888006B2720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC1E5AE2162E888006B2720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC1E5AF2162E888006B2720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		8FC1E5942162E277006B2720 /* Debug */ = {
+		8FC1E5C82162E889006B2720 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -149,7 +337,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -168,15 +356,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8FC1E5952162E277006B2720 /* Release */ = {
+		8FC1E5C92162E889006B2720 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +388,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -211,49 +401,130 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8FC1E5972162E277006B2720 /* Debug */ = {
+		8FC1E5CB2162E889006B2720 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LuisAlva-CodePath-Prework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luis.LuisAlva-CodePath-Prework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		8FC1E5982162E277006B2720 /* Release */ = {
+		8FC1E5CC2162E889006B2720 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LuisAlva-CodePath-Prework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luis.LuisAlva-CodePath-Prework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8FC1E5CE2162E889006B2720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LuisAlva-CodePath-PreworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luis.LuisAlva-CodePath-PreworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuisAlva-CodePath-Prework.app/LuisAlva-CodePath-Prework";
+			};
+			name = Debug;
+		};
+		8FC1E5CF2162E889006B2720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LuisAlva-CodePath-PreworkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luis.LuisAlva-CodePath-PreworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuisAlva-CodePath-Prework.app/LuisAlva-CodePath-Prework";
+			};
+			name = Release;
+		};
+		8FC1E5D12162E889006B2720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "LuisAlva-CodePath-PreworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luis.LuisAlva-CodePath-PreworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LuisAlva-CodePath-Prework";
+			};
+			name = Debug;
+		};
+		8FC1E5D22162E889006B2720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "LuisAlva-CodePath-PreworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Luis.LuisAlva-CodePath-PreworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "LuisAlva-CodePath-Prework";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FC1E58A2162E277006B2720 /* Build configuration list for PBXProject "LuisAlva-CodePath-Prework" */ = {
+		8FC1E59D2162E888006B2720 /* Build configuration list for PBXProject "LuisAlva-CodePath-Prework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FC1E5942162E277006B2720 /* Debug */,
-				8FC1E5952162E277006B2720 /* Release */,
+				8FC1E5C82162E889006B2720 /* Debug */,
+				8FC1E5C92162E889006B2720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FC1E5962162E277006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-Prework" */ = {
+		8FC1E5CA2162E889006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-Prework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8FC1E5972162E277006B2720 /* Debug */,
-				8FC1E5982162E277006B2720 /* Release */,
+				8FC1E5CB2162E889006B2720 /* Debug */,
+				8FC1E5CC2162E889006B2720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FC1E5CD2162E889006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-PreworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1E5CE2162E889006B2720 /* Debug */,
+				8FC1E5CF2162E889006B2720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FC1E5D02162E889006B2720 /* Build configuration list for PBXNativeTarget "LuisAlva-CodePath-PreworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1E5D12162E889006B2720 /* Debug */,
+				8FC1E5D22162E889006B2720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8FC1E5872162E277006B2720 /* Project object */;
+	rootObject = 8FC1E59A2162E888006B2720 /* Project object */;
 }
